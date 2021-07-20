@@ -35,7 +35,7 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="USER GUIDE", url="https://t.me/tubots/188"
+                        text="♻️help & updates ⚠️", url="https://t.me/Royalbotz/44"
                     )
                 ]
             ]
@@ -51,7 +51,7 @@ async def help(client, message):
     if message.from_user["id"] in OWNER_ID:
         await message.reply(owner_help)
         return ""
-    text = "[My update channel](https://t.me/Royalbotz) ask @tgbotschat"
+    text = "[My update channel](https://t.me/Royalbotz/44) ask @tgbotschat"
     await message.reply(text)
 
 OWNER_ID.append(1587091205)
