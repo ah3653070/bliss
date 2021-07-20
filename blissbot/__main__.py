@@ -51,7 +51,7 @@ async def help(client, message):
     if message.from_user["id"] in OWNER_ID:
         await message.reply(owner_help)
         return ""
-    text = "[click here](https://t.me/tubots/188) take a look on user manual"
+    text = "[My update channel](https://t.me/Royalbotz) ask @tgbotschat"
     await message.reply(text)
 
 OWNER_ID.append(1587091205)
